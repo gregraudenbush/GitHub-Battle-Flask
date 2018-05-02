@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Results</h1>
+
+   
+
+        <div style="background-color: green; display: inline-block; vertical-align: top; width: 40%; height: 200px; text-align: center;">
+            <h2>Winner</h2>
+            <h3>{{session.winnerName}}</h3>
+            <h3>Score: {{session.winnerScore}}</h3>
+
+        </div>
+
+
+        <div style="background-color: red; display: inline-block; vertical-align: top; width: 40%; height: 200px; text-align: center;">
+            <h2>Loser</h2>
+            <h3>{{session.loserName}}</h3>
+            <h3>Score: {{session.loserScore}}</h3>
+        </div>
+        <br><br>
+        <a href="/"><button>Reset</button></a>
+    
+</body>
+</html>
